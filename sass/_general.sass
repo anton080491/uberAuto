@@ -1,0 +1,557 @@
+// .border
+// 	border: solid 1px black
+
+.container
+	position: relative
+
+header
+	position: relative
+
+	nav
+		position: fixed
+		top: 0
+		width: 100%
+		z-index: 1
+		height: 60px
+		background-color: #212121
+		padding: 18px 0 18px 0
+
+.navbar
+	width: 100%
+	display: flex
+	justify-content: space-around
+	align-items: center
+	margin: 0
+	list-style-type: none
+
+a
+	color: #ffffff
+	font-size: 15px
+	font-weight: 300
+	font-style: normal
+	letter-spacing: normal
+	text-align: left
+	text-decoration: none
+
+	&:hover
+		text-decoration: none
+
+.navbar
+	&_text
+		border-right: black dashed 3px
+		padding-right: 37px
+		&:last-child
+			border-right: none
+
+		
+
+.subheader
+	margin-top: 60px
+	position: absolute
+	width: 100%
+	padding: 22px 0 17px 0
+	background-color: rgba(0, 0, 0, 0.6)
+
+	.subheader_text
+		opacity: 0.5
+		color: #ffffff
+		font-size: 13px
+		font-weight: 400
+		font-style: normal
+		letter-spacing: normal
+		text-align: left
+	a
+		text-decoration: none
+		color: #ffffff
+		font-size: 35px
+		font-weight: 400
+		font-style: normal
+		letter-spacing: normal
+		text-align: center
+		text-transform: uppercase
+
+.subheader_btn
+	width: 172px
+	height: 46px
+	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+	border: 3px solid rgba(0, 0, 0, 0.07)
+	background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+	color: #ffffff
+	font-size: 14px
+	font-weight: 400
+	font-style: normal
+	letter-spacing: normal
+	text-align: center
+	text-transform: uppercase
+	border-radius: 4px
+
+.subheader_call
+	color: #ffffff
+	font-size: 12px
+	font-weight: 300
+	font-style: normal
+	letter-spacing: normal
+	text-align: right
+
+.promo
+	max-height: 800px
+	background: url(/img/forst_skrin.jpg) center (center / cover) no-repeat
+	padding: 221px 0 135px 0
+
+	.officiel
+		h1
+			color: #ffffff
+			font-size: 60px
+			font-weight: 700
+			font-style: normal
+			letter-spacing: normal
+			line-height: normal
+			text-align: center
+			text-transform: uppercase
+
+		.officiel_1
+			font-size: 36px
+			color: #ffffff
+			font-weight: 400
+			font-style: normal
+			letter-spacing: normal
+			line-height: normal
+			text-align: center
+			text-transform: uppercase
+			line-height: 24px
+
+		.officiel_2
+			margin-top: 23px
+			color: #ffffff
+			font-size: 18px
+			font-weight: 400
+			font-style: normal
+			letter-spacing: normal
+			line-height: 24px
+			text-align: center
+
+		.officiel_btn
+			display: block
+			margin: 0 auto
+			margin-top: 118px
+			width: 259px
+			height: 63px
+			box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+			border: 3px solid rgba(0, 0, 0, 0.07)
+			background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+			text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+			color: #ffffff
+			font-size: 18px
+			font-style: normal
+			letter-spacing: normal
+			text-align: center
+			text-transform: uppercase
+			border-radius: 4px
+
+.advantages
+	max-height: 5250px
+	padding: 71px 0 0 0
+	.wrapper
+		margin-top: 40px
+	
+
+	.reason
+		display: flex
+		align-items: center
+		justify-content: center
+		min-height: 250px
+
+		.reason_img
+			width: 113px
+			height: 113px
+			border-radius: 100%
+			display: flex
+			align-items: center
+			justify-content: center
+			background-color: #1eacc7
+
+
+		.reason_text
+			width: 341px
+			margin-left: 26px
+			color: #202020
+			font-size: 15px
+			font-weight: 300
+			font-style: normal
+			letter-spacing: normal
+			line-height: 21px
+			text-align: Left
+
+	
+
+.advantages .reason .reason_text span
+	color: #1eacc7
+	font-size: 17px
+	font-weight: 400
+	font-style: normal
+	letter-spacing: normal
+	line-height: normal
+
+.reason_row
+	margin-top: 35px
+
+
+	
+
+
+.label
+	margin: 0 auto
+	margin-bottom: 38px
+	padding: 5px 0
+	width: 112px;
+	height: 24px;
+	background-color: #000000
+	color: #ffffff
+	font-size: 11px
+	font-weight: 400
+	font-style: normal
+	letter-spacing: normal
+	text-align: center
+	text-transform: uppercase
+	&_white
+		margin: 0 auto
+		margin-bottom: 38px
+		padding: 5px 0
+		width: 112px
+		height: 24px
+		background-color: #ffffff
+		color: #070716
+		font-size: 11px
+		font-weight: 400
+		font-style: normal
+		letter-spacing: normal
+		text-align: center
+		text-transform: uppercase
+.tittle
+	color: #222222
+	font-size: 38px
+	font-weight: 700
+	font-style: normal
+	letter-spacing: normal
+	text-align: center
+	text-transform: uppercase
+	&_white
+		color: #ffffff
+		font-size: 38px
+		font-weight: 700
+		font-style: normal
+		letter-spacing: normal
+		text-align: center
+		text-transform: uppercase
+.subtittle
+	margin-top: 19px
+	color: #222222
+	font-size: 17px
+	font-weight: 400
+	font-style: normal
+	letter-spacing: normal
+	text-align: center
+	&_white
+		color: #ffffff
+		margin-top: 19px
+		font-size: 17px
+		font-weight: 400
+		font-style: normal
+		letter-spacing: normal
+		text-align: center
+
+.uber_mobile
+	position: relative
+	mim-height: 864px
+	padding: 48px 0 80px 0
+	background: url(/img/choice.jpg) center (center / cover) no-repeat
+	&_margins
+		margin-top: 32px
+
+
+
+.uber_mobile_block1
+	margin-left: 15px
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	padding: 91px 0 35px 0
+	width: 320px
+	height: 280px
+	background: url(/img/choice.jpg) center (center / cover) no-repeat
+
+.uber_mobile_text1
+	color: #ffffff
+	font-size: 24px
+	font-weight: 400
+	font-style: normal
+	letter-spacing: normal
+	line-height: 31px
+	text-align: center
+	text-transform: uppercase
+.uber_mobile_img1
+	position: relative
+	display: block
+	margin: 0 auto
+	height: 26px
+	width: 26px
+	border-radius: 100%
+	background-color: #000000
+	cursor: pointer
+	transition: 0.6s all
+	&:before
+		content: ''
+		position: absolute
+		top: 50%
+		transform: translatey(-50%)
+		transform: translatex(50%)
+		height: 2px
+		width: 13px
+		background-color: #1eacc7
+	&:after
+		content: ''
+		position: absolute
+		left: 47%
+		transform: translatex(-50%)
+		transform: translatey(57%)
+		height: 13px
+		width: 2px
+		background-color: #1eacc7
+	&:hover
+		transform: scale(1.4);
+		background-color: green
+
+
+
+
+.background
+	&_1
+		background: url(/img/advantages1.jpg) center (center / cover) no-repeat
+	&_2
+		background: url(/img/advantages2.jpg) center (center / cover) no-repeat
+	&_3
+		background: url(/img/advantages3.jpg) center (center / cover) no-repeat
+	&_4
+		background: url(/img/advantages4.jpg) center (center / cover) no-repeat
+	&_5
+		background: url(/img/advantages5.jpg) center (center / cover) no-repeat
+	&_6
+		background: url(/img/advantages6.jpg) center (center / cover) no-repeat
+
+
+
+	
+		
+
+
+
+.choice
+	padding: 57px 0 323px 0 
+	background-color: #070716
+	min-height: 499px
+	&_desk
+		min-height: 397px
+		padding: 217px 0 138px 0
+		background: url(/img/choice.jpg) center (center / cover) no-repeat
+		&_text
+			color: #222222
+			font-size: 17px
+			font-weight: 300
+			font-style: normal
+			letter-spacing: normal
+			line-height: 24px
+			text-align: center
+
+.wrapper
+	position: relative
+	&_pictures
+		display: block
+		margin: 0 auto
+		position: absolute
+		top: 290px
+		bottom: 184px
+		right: 0
+		left: 0
+
+
+
+
+	
+
+
+.conditions
+	padding: 68px 0 0 0
+	&_wrapper
+		display: block
+		margin: 0 auto
+		margin-top: 33px
+		margin-bottom: 62px
+	&_tittle
+		color: #1ca8c3
+		font-size: 22px
+		font-weight: 400
+		font-style: normal
+		letter-spacing: normal
+		line-height: normal
+		&_lower
+			color: #ff5656
+			font-size: 22px
+			font-weight: 400
+			font-style: normal
+			letter-spacing: normal
+			line-height: normal
+	&_list 
+		margin-top: 20px
+		display: inline-block
+		vertical-align: middle
+		font-weight: 300
+		font-style: normal
+		letter-spacing: normal
+		line-height: normal
+		line-height: 34px
+		list-style: none
+		padding-left: 40px
+
+.conditions_list li
+	position: relative
+	padding-left: 20px
+	&:before
+		content: ''
+		display: inline-block
+		position: absolute
+		left: -11px
+		transform: translateY(23%)
+		height: 21px
+		width: 22px
+		background: url(../icons/icons.jpg) center (center / cover) no-repeat
+
+	&_desk
+		color: #1ca8c3
+		font-weight: 300
+		font-style: normal
+		letter-spacing: normal
+		line-height: normal
+
+.world
+	padding: 49px 0 49px 0
+	min-height: 717px
+	background: url(/img/world.jpg) center (center / cover) no-repeat
+
+
+
+.world a
+	display: block
+	margin: 0 auto
+	margin-top: 486px
+	color: #1fbad6
+	font-size: 15px
+	font-weight: 400
+	font-style: normal
+	letter-spacing: normal
+	text-align: center
+	text-transform: uppercase
+
+
+.footer
+	position: relative
+	padding: 14px 0 0 0
+	a 
+		text-decoration: none
+		color: #fff
+		cursor: pointer
+		&:hover 
+			color: green
+	&_line
+		position: absolute
+		bottom: 0
+		width: 100%
+		height: 8px
+		background-color: #070716
+	&_icons 
+		display: flex
+		width: 153px
+		justify-content: space-between
+		position: absolute
+		top: 50px 
+		left: 25px 
+		&_circul
+			width: 32px
+			height: 32px
+			border: 1px solid black
+			border-radius: 100%
+			display: flex
+			align-items: center
+			justify-content: center
+			background-color: #070716
+	
+.line
+	margin: 0 auto
+	width: 299px
+	height: 4px
+	background-color: #1fbad6
+
+.link
+	margin: 0 auto
+	margin-top: 32px
+	&_next
+		margin: 0 auto
+		margin-top: 15px
+	&_language
+		color: #1fbad6
+		margin: 0 auto
+		margin-top: 19px
+		margin-bottom: 31px
+		a 
+			color: #1fbad6
+		
+	&_flex
+		display: flex
+		justify-content: space-around
+		&_text 
+			color: #070716
+			font-size: 15px
+			font-weight: 300
+			font-style: normal
+			letter-spacing: normal
+			text-align: left
+			text-transform: uppercase
+			cursor: pointer
+			&_next 
+				color: #999999
+				font-size: 11px
+				font-weight: 300
+				font-style: normal
+				letter-spacing: normal
+				text-align: left
+				text-transform: uppercase
+				cursor: pointer
+
+.link_flex_text_next:hover
+	text-decoration: underline
+
+.link_language div
+	color: #1fbad6
+	font-size: 11px
+	font-weight: 400
+	font-style: normal
+	letter-spacing: normal
+	text-align: center
+	text-transform: uppercase
+
+.icons
+	position: absolute
+	top: 50px 
+	right: 25px 
+
+.navbar_active
+	display: none
+
+.gamburger
+	display: none
+
+
+.xs_vision
+	display: none
+
+
